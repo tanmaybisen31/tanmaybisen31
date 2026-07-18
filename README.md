@@ -1,0 +1,101 @@
+<div align="center">
+
+# Tanmay Bisen
+
+### 🧠 Lead AI Engineer
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=5DB0FF&center=true&vCenter=true&width=680&height=46&lines=LLM+interpretability+and+steering;Reasoning+systems+on+ARC-AGI;Speculative+decoding+on+Apple+Silicon;Building+AI+from+first+principles)](https://github.com/tanmaybisen31)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-bisen-a3a181207/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tanmaybisen31)
+
+</div>
+
+---
+
+## 👋 About
+
+I'm a **Lead AI Engineer** working where **interpretability, reasoning, and efficient inference** meet. I like taking models apart to see how they actually *think* — logit lenses, steering vectors, attention maps — and turning that understanding into systems that reason harder and run faster.
+
+That means symbolic reasoning on the ARC-AGI benchmark, self-trained speculative-decoding heads squeezed onto Apple Silicon, and applied ML across medical imaging and beyond. I build from **first principles** and report results **honestly** — losses reported as losses, artifacts flagged as artifacts.
+
+> *Currently exploring: interpretability-guided speculative decoding and SAE-based activation steering.*
+
+---
+
+## 🚀 Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧩 [arc-agi-solver](https://github.com/tanmaybisen31/arc-agi-solver)
+
+A **verification-based symbolic solver** for the ARC-AGI benchmark. A ~320-rule detector ensemble where every rule must reproduce *all* training demos exactly before it's allowed to guess — so it structurally **cannot hardcode answers**.
+
+`51.75%` ARC-1 eval &nbsp;·&nbsp; `33.9%` on the unseen ARC-2 set &nbsp;·&nbsp; from scratch, no LLM APIs.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔬 [llm-interpretability-lab](https://github.com/tanmaybisen31/llm-interpretability-lab)
+
+A local web playground to look **inside** a language model — logit lens, attention maps, activation steering with a live concept meter, chat, and image generation. Watch an answer form, layer by layer, and push concepts straight into the residual stream.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<br>
+<img src="https://raw.githubusercontent.com/tanmaybisen31/llm-interpretability-lab/main/docs/lens.png" width="78%" alt="logit lens — watching 'Paris' emerge layer by layer"/>
+<br>
+<sub><em>Logit lens: watching “Paris” win the prediction as the thought forms, layer by layer, inside Qwen3-0.6B.</em></sub>
+</div>
+
+---
+
+## 🧠 What I work on
+
+- **Mechanistic interpretability** — logit lens, steering directions, attention analysis; reading a model mid-thought
+- **Reasoning** — symbolic + neural approaches to ARC-AGI, verification-first program search
+- **Efficient inference** — self-trained EAGLE / speculative decoding, batching, running LLMs on Apple Silicon (MLX)
+- **Applied ML** — medical imaging, anomaly detection, and the occasional quantum circuit
+
+---
+
+## 🛠️ Tech
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Apple MLX](https://img.shields.io/badge/Apple_MLX-000000?style=for-the-badge&logo=apple&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=tanmaybisen31&show_icons=true&hide_border=true&bg_color=0c0f17&title_color=5db0ff&text_color=e7ecf5&icon_color=46d39a" alt="GitHub stats"/>
+&nbsp;
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanmaybisen31&layout=compact&hide_border=true&bg_color=0c0f17&title_color=5db0ff&text_color=e7ecf5&langs_count=8" alt="Top languages"/>
+
+</div>
+
+---
+
+<div align="center">
+
+**Let's build something that thinks.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tanmay_Bisen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-bisen-a3a181207/)
+
+</div>
