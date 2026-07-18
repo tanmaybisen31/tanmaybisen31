@@ -16,9 +16,9 @@
 
 ## 👋 About
 
-I'm a **Lead AI Engineer** working where **interpretability, reasoning, and efficient inference** meet. I like taking models apart to see how they actually *think* — logit lenses, steering vectors, attention maps — and turning that understanding into systems that reason harder and run faster.
+I'm a **Lead AI Engineer** working where interpretability, reasoning, and efficient inference meet. I like taking models apart to see how they actually *think* (logit lenses, steering vectors, attention maps), then turning that understanding into systems that reason harder and run faster.
 
-That means symbolic reasoning on the ARC-AGI benchmark, self-trained speculative-decoding heads squeezed onto Apple Silicon, and applied ML across medical imaging and beyond. I build from **first principles** and report results **honestly** — losses reported as losses, artifacts flagged as artifacts.
+In practice that means symbolic reasoning on the ARC-AGI benchmark, self-trained speculative-decoding heads squeezed onto Apple Silicon, and applied ML across medical imaging and beyond. I build from **first principles** and report results **honestly**: losses reported as losses, artifacts flagged as artifacts.
 
 > *Currently exploring: interpretability-guided speculative decoding and SAE-based activation steering.*
 
@@ -32,7 +32,7 @@ That means symbolic reasoning on the ARC-AGI benchmark, self-trained speculative
 
 ### 🧩 [arc-agi-solver](https://github.com/tanmaybisen31/arc-agi-solver)
 
-A **verification-based symbolic solver** for the ARC-AGI benchmark. A ~320-rule detector ensemble where every rule must reproduce *all* training demos exactly before it's allowed to guess — so it structurally **cannot hardcode answers**.
+A **verification-based symbolic solver** for the ARC-AGI benchmark. It runs a ~320-rule detector ensemble where every rule must reproduce *all* training demos exactly before it can guess, so it structurally **cannot hardcode answers**.
 
 `51.75%` ARC-1 eval &nbsp;·&nbsp; `33.9%` on the unseen ARC-2 set &nbsp;·&nbsp; from scratch, no LLM APIs.
 
@@ -41,7 +41,7 @@ A **verification-based symbolic solver** for the ARC-AGI benchmark. A ~320-rule 
 
 ### 🔬 [llm-interpretability-lab](https://github.com/tanmaybisen31/llm-interpretability-lab)
 
-A local web playground to look **inside** a language model — logit lens, attention maps, activation steering with a live concept meter, chat, and image generation. Watch an answer form, layer by layer, and push concepts straight into the residual stream.
+A local web playground for looking **inside** a language model: logit lens, attention maps, activation steering with a live concept meter, chat, and image generation. Watch an answer form, layer by layer, and push concepts straight into the residual stream.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ A local web playground to look **inside** a language model — logit lens, atten
 
 <div align="center">
 <br>
-<img src="https://raw.githubusercontent.com/tanmaybisen31/llm-interpretability-lab/main/docs/lens.png" width="78%" alt="logit lens — watching 'Paris' emerge layer by layer"/>
+<img src="https://raw.githubusercontent.com/tanmaybisen31/llm-interpretability-lab/main/docs/lens.png" width="78%" alt="logit lens watching 'Paris' emerge layer by layer"/>
 <br>
 <sub><em>Logit lens: watching “Paris” win the prediction as the thought forms, layer by layer, inside Qwen3-0.6B.</em></sub>
 </div>
@@ -58,10 +58,10 @@ A local web playground to look **inside** a language model — logit lens, atten
 
 ## 🧠 What I work on
 
-- **Mechanistic interpretability** — logit lens, steering directions, attention analysis; reading a model mid-thought
-- **Reasoning** — symbolic + neural approaches to ARC-AGI, verification-first program search
-- **Efficient inference** — self-trained EAGLE / speculative decoding, batching, running LLMs on Apple Silicon (MLX)
-- **Applied ML** — medical imaging, anomaly detection, and the occasional quantum circuit
+- **Mechanistic interpretability:** logit lens, steering directions, attention analysis; reading a model mid-thought
+- **Reasoning:** symbolic and neural approaches to ARC-AGI, verification-first program search
+- **Efficient inference:** self-trained EAGLE / speculative decoding, batching, running LLMs on Apple Silicon (MLX)
+- **Applied ML:** medical imaging, anomaly detection, and the occasional quantum circuit
 
 ---
 
