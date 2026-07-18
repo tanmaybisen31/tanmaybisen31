@@ -4,7 +4,7 @@
 
 ### 🧠 Lead AI Engineer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=5DB0FF&center=true&vCenter=true&width=680&height=46&lines=LLM+interpretability+and+steering;Reasoning+systems+on+ARC-AGI;Speculative+decoding+on+Apple+Silicon;Building+AI+from+first+principles)](https://github.com/tanmaybisen31)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=5DB0FF&center=true&vCenter=true&width=680&height=46&lines=LLM+interpretability+and+steering;Reasoning+systems+on+ARC-AGI;Speculative+decoding+on+Apple+Silicon;Self-play+LLM+agents+in+a+physics+arena;Building+AI+from+first+principles)](https://github.com/tanmaybisen31)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-bisen-a3a181207/)
 &nbsp;
@@ -52,6 +52,16 @@ A local web playground for looking **inside** a language model: logit lens, atte
 <img src="https://raw.githubusercontent.com/tanmaybisen31/llm-interpretability-lab/main/docs/lens.png" width="78%" alt="logit lens watching 'Paris' emerge layer by layer"/>
 <br>
 <sub><em>Logit lens: watching “Paris” win the prediction as the thought forms, layer by layer, inside Qwen3-0.6B.</em></sub>
+</div>
+
+### 🥊 [stickfight-arena](https://github.com/tanmaybisen31/stickfight-arena)
+
+A **deterministic 2D physics fighting engine** where small local LLMs (served on-device via MLX) drive stickmen through a hybrid loop: the model picks a tactical intent, a 60 Hz executor turns it into moves. Plus a self-play ELO league where losing agents rewrite their own policies via LLM reflection. TypeScript monorepo, 85 tests, frame-exact replays.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/tanmaybisen31/stickfight-arena/main/docs/gameplay.gif" width="80%" alt="stickfight-arena: LLM-driven stickmen fighting in a physics arena"/>
+<br>
+<sub><em>A recorded match, replayed frame-exact. Each fighter is driven by a small local LLM; the bubble is the tactical intent it just picked.</em></sub>
 </div>
 
 ---
