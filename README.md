@@ -80,18 +80,6 @@ A local web playground to look **inside** a language model — logit lens, atten
 
 ---
 
-## 📊 GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tanmaybisen31&show_icons=true&hide_border=true&bg_color=0c0f17&title_color=5db0ff&text_color=e7ecf5&icon_color=46d39a" alt="GitHub stats"/>
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanmaybisen31&layout=compact&hide_border=true&bg_color=0c0f17&title_color=5db0ff&text_color=e7ecf5&langs_count=8" alt="Top languages"/>
-
-</div>
-
----
-
 <div align="center">
 
 **Let's build something that thinks.**
